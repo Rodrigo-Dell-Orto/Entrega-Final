@@ -30,8 +30,7 @@
 
 @media (max-width: 630px){
     h1{
-        font-size: 36px;
-        font-weight: 800;
+        font-size: 28px;
     }
     .mas{
         h2{
@@ -66,8 +65,7 @@
         font-size: 15px;
     }
     h1{
-        font-size: 28px;
-        font-weight: 800;
+        font-size: 22px;
     }
     .mas{
         h2{
@@ -86,15 +84,37 @@
 }
 
 @media (max-width: 360px){
-    footer{
-        display: inline-block;
-        height: 360px;
+    .destacados{
+        .destacados-contenedor{
+            div{
+                .descuento{
+                    left: 190px;
+                }
+                img{
+                    width: 270px;
+                    height: 180px;
+                }
+                h6{
+                    top: 370px;
+                    left: 95px;
+                }
+            }
+        }
     }
     .grid-galeria{
         padding: 6px;
+        .grid-item{
+            img{
+                width: 270px;
+                height: 180px;
+            }
         }
+        }
+    footer{
+        display: inline-block;
+        height: 240px;
+    }
 }
-
 
 
 
